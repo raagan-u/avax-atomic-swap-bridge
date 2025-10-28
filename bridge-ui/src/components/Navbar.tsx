@@ -10,30 +10,30 @@ import avalancheLogo from '../assets/avalanche-avax-logo.svg';
 import bitcoinLogo from '../assets/bitcoin-btc-logo.svg';
 
 const navbarVariants = {
-  hidden: { opacity: 0, scale: 0.98, filter: 'blur(8px)' },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    filter: 'blur(0px)',
-    transition: {
-      duration: 0.6,
-      ease: [0.22, 1, 0.36, 1],
-      when: "beforeChildren",
-      staggerChildren: 0.08,
-    },
-  },
+  // hidden: { opacity: 0, scale: 0.98, filter: 'blur(8px)' },
+  // visible: {
+  //   opacity: 1,
+  //   scale: 1,
+  //   filter: 'blur(0px)',
+  //   transition: {
+  //     duration: 0.6,
+  //     ease: [0.22, 1, 0.36, 1],
+  //     when: "beforeChildren",
+  //     staggerChildren: 0.08,
+  //   },
+  // },
 };
 
 const itemVariants = {
-  hidden: { opacity: 0, y: 24 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.4,
-      ease: [0.22, 1, 0.36, 1],
-    },
-  },
+  // hidden: { opacity: 0, y: 24 },
+  // visible: {
+  //   opacity: 1,
+  //   y: 0,
+  //   transition: {
+  //     duration: 0.4,
+  //     ease: [0.22, 1, 0.36, 1],
+  //   },
+  // },
 };
 
 export const Navbar = ({ onOrdersClick }: { onOrdersClick: () => void }) => {
